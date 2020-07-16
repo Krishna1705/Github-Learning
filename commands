@@ -31,3 +31,15 @@ git add file name-staging area
 git commit -m "msg"-snapshot
 git remote add origin reponame-github
 
+******************************************************************************
+
+command for a branch -----------
+/****it will create a branch(copy of originl-master project).
+so if we will make changes in a branch, it will not affect original copy.after final testing of a branch,
+we will merge it into a live master copy.so in this way original master copy will not be directed affected.***/
+
+1)git branch//show the number of branches and the status in which branch u are right now
+
+2)git branch branchName//to create a branch
+
+3)git checkout branchName//to make entry in particular branch
