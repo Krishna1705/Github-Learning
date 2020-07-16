@@ -1,0 +1,13 @@
+git config --global user.email "ridpatel2907@gmail.com"
+git config --global user.name "Krishna"
+
+learn git part-1
+
+1)git init// to make ur project a git project,it will create a empty .git folder inside of ur project folder,which may be hidden
+2)git status//it shows status that which files are needed to add for commit and which are already committed.
+3)git add [filename] || A //
+4)git commit -m  "msg" 
+5)git remote add origin  repoName   //----------------to establish connection between our local pc and git remote server.
+6)git push origin master
+7)git clone reponame
+8)git pull origin master
