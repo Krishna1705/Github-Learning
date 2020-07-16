@@ -43,5 +43,8 @@ we will merge it into a live master copy.so in this way original master copy wil
 2)git branch branchName//to create a branch
 
 3)git checkout branchName//to make entry in particular branch
+//now if u want to make changes then do changes in this branch then check git status, then add these untracked or changed files,
+//then commit these files and then exit from branch and do checkout in master
 
-4)git merge branchName//while uare inside master branch u can use this command to merge master with branch
+4)git merge branchName//to merge branch into the master you need to go into the master branch,
+//then while you are inside master branch you can use this command to merge branch with live master.
