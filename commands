@@ -4,10 +4,26 @@ git config --global user.name "Krishna"
 learn git part-1
 
 1)git init// to make ur project a git project,it will create a empty .git folder inside of ur project folder,which may be hidden
-2)git status//it shows status that which files are needed to add for commit and which are already committed.
-3)git add [filename] || A //
-4)git commit -m  "msg" 
-5)git remote add origin  repoName   //----------------to establish connection between our local pc and git remote server.
+2)git status//it shows status that which files are tracked and which are not tracked.so untracked files needed to be add in staging area.
+3)git add [filename] || A //files are added in the staging area.
+4)git commit -m  "msg" //we will write commit msg after some changes in project,so we will have a work flow of our work,and we can track which things are changed in our project
+
+5)git remote add origin  repoName 
+  //-----------------till now our project in on local machine,now we want to host it.we will create a new git repository
+  //-----------------above command is used to establish connection between our project which is on local pc and git remote server's repository which we have created.
+ 
+
 6)git push origin master
+ /-----------------/ it will add ur project files to the remote server repository
+ //-----------------if u establish connection for the first time then it will ask u about ur github ac email id and password
+ 
 7)git clone reponame
 8)git pull origin master
+
+
+graph to understand is as follow:
+git init-user1
+git add file name-staging area
+git commit -m "msg"-snapshot
+git remote add origin reponame-github
+
