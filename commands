@@ -43,3 +43,5 @@ we will merge it into a live master copy.so in this way original master copy wil
 2)git branch branchName//to create a branch
 
 3)git checkout branchName//to make entry in particular branch
+
+4)git merge branchName//while uare inside master branch u can use this command to merge master with branch
