@@ -48,3 +48,26 @@ we will merge it into a live master copy.so in this way original master copy wil
 
 4)git merge branchName//to merge branch into the master you need to go into the master branch,
 //then while you are inside master branch you can use this command to merge branch with live master.
+
+5)git push origin master //then use this command to push this merged code into github from ur local machine
+
+*****************************************************************************************
+
+command for log----------
+with the help of these log commands we can easyly track that when we made which changes at last 
+
+1)git log //show track of all logs
+NOTE:WHEN WE COMMIT SOMETHING, THEN IT WILL CREATE  A UNIQUE HASH KEY TO KEEP TRACK OF ALL THE DATA.
+
+2)git log -2 //show track of last 2 logs.
+
+3)git log --oneline //show all the tracks in oneline only
+
+4)git log -i --author="krishna" //to search anything -it is case sensetive,so we need to write -i to disable case sensetie
+
+//above willl find the data where author name is krishna
+
+5)git log -i --grep ="add"// to search anything 
+
+6)git log -i -p --grep ="add" //if you want to search inside code then write -p as follows:
+
